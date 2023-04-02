@@ -9,12 +9,12 @@ Run the code
 ## Usage
 This implementation can be used to find the frequent itemsets in large datasets using PySpark. The function get_candidate_itemset is the main function and takes in two arguments:
 
-basket_rdd: The RDD containing the baskets of items
-support_threshold: The minimum support threshold
+`basket_rdd`: The RDD containing the baskets of items
+`support_threshold`: The minimum support threshold
 The output of the function is an RDD containing the frequent itemsets.
 
 
-Contributing
+## Contributing
 This implementation is open to contributions. If you find any bugs or have suggestions for improvements, feel free to create an issue or a pull request.
 
 
